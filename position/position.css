@@ -1,0 +1,17 @@
+#lost {
+    visibility: hidden;
+}
+#lost2 {
+    display: none;
+}
+li {
+    display: inline;
+}
+strong {
+    display: block;
+}
+.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
